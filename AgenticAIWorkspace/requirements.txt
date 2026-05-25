@@ -8,3 +8,4 @@ IPython
 arxiv
 wikipedia-api
 langchain-tavily
+langgraph-cli[inmem]
