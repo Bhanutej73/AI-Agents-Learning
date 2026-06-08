@@ -8,4 +8,7 @@ IPython
 arxiv
 wikipedia-api
 langchain-tavily
+langchain_huggingface
 langgraph-cli[inmem]
+faiss-cpu
+sentence-transformers
