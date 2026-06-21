@@ -44,3 +44,7 @@ Thumbs.db
 
 # UV
 .python-version 
+.langraph_api/
+
+uv.lock
+request.json
