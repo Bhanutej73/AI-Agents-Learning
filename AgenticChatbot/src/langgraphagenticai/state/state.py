@@ -1,9 +1,11 @@
-from typing_extensions import TypedDict,List
+from typing_extensions import TypedDict
+from typing import Annotated, List, Dict, Any
 from langgraph.graph.message import add_messages
-from typing import Annotated
 
 class State(TypedDict):
-    """
-    Represent the structure of the state used in graph
-    """
-    messages:Annotated[List,add_messages]
+    messages: Annotated[List, add_messages]
+
+    frequency: str
+    news_data: List[Dict[str, Any]]
+    summary: str
+    filename: str
